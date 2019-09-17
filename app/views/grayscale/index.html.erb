@@ -1,41 +1,28 @@
 <!-- Header -->
-<header class="masthead">
+<header class="masthead-custom">
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-      <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-      <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      <h1 class="text-title text-uppercase">Tomatoes of Thomastown</h1>
+      <h2 class="text-white-med mx-auto mt-2 mb-5">A brief description of one household's tomato patch in 2019.</h2>
+      <a href="#tomatoes" class="btn btn-primary js-scroll-trigger">Get Started</a>
     </div>
   </div>
 </header>
 
-<!-- About Section -->
-<section id="about" class="about-section text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-        <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-          <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-      </div>
-    </div>
-    <img src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/ipad.png" class="img-fluid" alt="">
-  </div>
-</section>
 
 <!-- Projects Section -->
-<section id="projects" class="projects-section bg-light">
+<section id="tomatoes" class="projects-section bg-light">
   <div class="container">
 
     <!-- Featured Project Row -->
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7">
-        <img class="img-fluid mb-3 mb-lg-0" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/bg-masthead.jpg" alt="">
+      	<%= image_tag("tomatoes.jpg", :alt => "", :class => 'img-fluid mb-3 mb-lg-0') %>
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
-          <h4>Shoreline</h4>
-          <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+          <h4>Tomato season 2019</h4>
+          <p class="text-black-50 mb-0">This year I am growing a range of heirloom tomatoes. These include both full size and cherry tomatoes, in a number of different colours.</p>
         </div>
       </div>
     </div>
@@ -43,14 +30,15 @@
     <!-- Project One Row -->
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-lg-6">
-        <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-01.jpg" alt="">
+      	<%= image_tag("cherry-tomatoes.jpg", :alt => "", :class => 'img-fluid') %>
       </div>
       <div class="col-lg-6">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-white">Misty</h4>
-              <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+              <h4 class="text-white-lg">Cherry tomatoes</h4>
+              <p class="mb-0 text-white-med">Tommy Toe is a popular heirloom variety, and if you want to grow the 'classic' red cherry tomato then Tommy Toe is an excellent choice. It produces small, tasty red fruit much like the tomatoes you see in the picture. 
+              	<br>Another cherry tomato I am growing this year is the Black Cherry tomato, which produces small dark fruit. This is the first year I will have tried growing Black Cherry tomatoes, so I'm eager to see how they turn out!</p>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -61,14 +49,17 @@
     <!-- Project Two Row -->
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-6">
-        <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-02.jpg" alt="">
+        <%= image_tag("fullsize-tomatoes.jpg", :alt => "", :class => 'img-fluid') %>
       </div>
       <div class="col-lg-6 order-lg-first">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-right">
-              <h4 class="text-white">Mountains</h4>
-              <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+              <h4 class="text-white-lg">Full sized tomatoes</h4>
+              <p class="mb-0 text-white-med">This year I am growing six varieties of full sized tomatoes. To start, I have Santorini and Rosella Crimson - these both bear red fruit. I have grown Rosella Crimson in previous years and found it to have a beautiful, rich flavour.
+              	<br>Next we have two yellow varieties, Wherekowai and Wapsipinicon Peach. Wherekowai is a dwarf variety, and the deep yellow fruit often has swirls of red; these swirls are present the whole way through the fruit, making it very attractive when cut open. Wapsipinicon Peach, on the other hand, is quite a pale yellow. The variety earned its name due to the fruit's slightly furry skin! Don't be put off though, the fruit is very tasty.
+              	<br> Finally, we have tomatoes whose fruit is neither red nor yellow. Nyagous is a Russian heirloom variety, with purple-black fruit. The fruit is firm and sweet, with a clean acidic finish. Leicester Jones, on the other hand, has fruit that is very low in acidity. The variety was bred by a Tasmanian naturopath, so is very well suited to growing conditions in Tasmania.
+              	</p>
               <hr class="d-none d-lg-block mb-0 mr-0">
             </div>
           </div>
@@ -79,65 +70,48 @@
   </div>
 </section>
 
-<!-- Signup Section -->
-<section id="signup" class="signup-section">
+<!-- About Section -->
+<section id="about" class="about-section-custom text-center">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-        <form class="form-inline d-flex">
-          <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-          <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-        </form>
-
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">About this website</h2>
+        <p class="text-white-50">This website was built in Ruby on Rails. It uses the <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a> Bootstrap theme, which was created by Start Bootstrap.<br>The theme is open source, and you can use it for any purpose, personal or commercial.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section class="contact-section bg-black">
+<section id="contact" class="contact-section bg-black">
   <div class="container">
 
     <div class="row">
 
-      <div class="col-md-4 mb-3 mb-md-0">
+      <div class="column-half">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
+            <h4 class="text-uppercase m-0">Location</h4>
             <hr class="my-4">
-            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            <div class="small text-black-50">Thomastown, Victoria, Australia</div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-3 mb-md-0">
+      <div class="column-half">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-envelope text-primary mb-2"></i>
             <h4 class="text-uppercase m-0">Email</h4>
             <hr class="my-4">
             <div class="small text-black-50">
-              <a href="#">hello@yourdomain.com</a>
+              <a href="mailto:jenniferanne@live.com.au">jenniferanne@live.com.au</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">+1 (555) 902-8832</div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="social d-flex justify-content-center">

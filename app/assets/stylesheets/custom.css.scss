@@ -1,0 +1,57 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.masthead-custom {
+	position:relative;
+	width:100%;
+	height:auto;
+	min-height:35rem;
+	padding:15rem 0;
+	background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%);
+	background-image: url("seedlings.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover
+}
+
+.about-section-custom {
+	padding-top:10rem;
+	background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.8) 100%,rgba(22,22,22,.9) 75%)
+}
+
+.about-section-custom p {
+	margin-bottom:5rem
+}
+
+.column-half {
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.text-white-med {
+	color:rgba(255,255,255,.5)!important;
+	font-size: 1.5em;
+}
+
+.text-white-lg {
+	color:rgba(255,255,255,1)!important;
+	font-size: 2.5em;
+}
+
+.text-grey-med {
+	color:rgba(200,200,200,.7)!important;
+	font-size: 1.5em;
+}
+
+.text-grey-lg {
+	color:rgba(200,200,200,1)!important;
+	font-size: 2.5em;
+}
+
+.text-title {
+	color:rgba(255,255,255,1)!important;
+	font-size: 4em;
+}
