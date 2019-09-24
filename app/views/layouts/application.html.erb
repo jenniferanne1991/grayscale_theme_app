@@ -24,31 +24,33 @@
     <link href="http://blackrockdigital.github.io/startbootstrap-grayscale/css/grayscale.min.css" rel="stylesheet">
   </head>
 
-  <!-- Header -->
-  <header class="masthead-custom">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger text-grey-lg" href="#page-top">Home</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-grey-med" href="#tomatoes">Tomatoes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-grey-med" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-grey-med" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <body>
+    <!-- Header -->
+    <header class="masthead-custom">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger text-grey-lg" href="#page-top">Home</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger text-grey-med" href="#tomatoes">Tomatoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger text-grey-med" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger text-grey-med" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
@@ -58,11 +60,8 @@
       </div>
     </div>
   </header>
-
-  <body>
     <%= yield %>
-  </body>
-  <!-- Footer -->
+    <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
         &copy; Jennifer Ralph 2019
@@ -78,4 +77,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="http://blackrockdigital.github.io/startbootstrap-grayscale/js/grayscale.min.js"></script>
+  </body>
+
 </html>
