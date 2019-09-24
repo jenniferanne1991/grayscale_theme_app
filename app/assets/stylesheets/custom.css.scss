@@ -31,13 +31,16 @@
 	margin-left: 5%;
 }
 
-.text-white-med {
-	color:rgba(255,255,255,.5)!important;
-	font-size: 1.5em;
+.container {
+	width: 100%
 }
 
-.text-white-lg {
-	color:rgba(255,255,255,1)!important;
+.mb-lg-0 {
+	margin-bottom:0!important
+}
+
+.text-grey-lg {
+	color:rgba(200,200,200,1)!important;
 	font-size: 2.5em;
 }
 
@@ -46,16 +49,17 @@
 	font-size: 1.5em;
 }
 
-.text-grey-lg {
-	color:rgba(200,200,200,1)!important;
-	font-size: 2.5em;
-}
-
 .text-title {
 	color:rgba(255,255,255,1)!important;
 	font-size: 4em;
 }
 
-.mb-lg-0 {
-	margin-bottom:0!important
+.text-white-lg {
+	color:rgba(255,255,255,1)!important;
+	font-size: 2.5em;
+}
+
+.text-white-med {
+	color:rgba(255,255,255,.5)!important;
+	font-size: 1.5em;
 }
